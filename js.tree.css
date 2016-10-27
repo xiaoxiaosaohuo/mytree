@@ -1,0 +1,303 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+[class*="js-icon-"] {
+  display: inline-block;
+}
+[class*="js-icon-"]:before {
+  display: inline-block;
+  font-family: "FontAwesome", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: baseline;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.js-icon-caret-right:before {
+  content: "\f0da";
+}
+
+.js-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.js-icon-save:before,
+.js-icon-floppy-o:before,.js-icon-undo:before {
+  content: "\f0c7";
+  font-size: 24px;
+}
+.js-icon-plus:before {
+  content: "\f067";
+  width: 10%;
+  position:absolute;
+  right: 0px;
+  top: 3px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.js-icon-minus-square-o:before {
+  content: "\f147";
+}
+.js-icon-plus-square-o:before {
+  content: "\f196";
+}
+.js-icon-leaf:before {
+  content: "\f06c";
+}
+
+.js-icon-undo:before {
+  content: "\f0e2";
+}
+.js-icon-trash:before {
+  content: "\f1f8";
+}
+.js-icon-trash-o:before {
+  content: "\f014";
+}
+.js-icon-edit:before{
+    content: "\f044";
+}
+.js-icon-save:before {
+  content: "\f0c7";
+
+}
+.js-icon-edit:before,.js-icon-trash:before,.js-icon-undo:before,.js-icon-save:before {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.js-icon-plus{
+
+    display: none;
+}
+.js-tree {
+  padding-left: 0;
+  overflow-x: auto;
+  overflow-y: auto;
+  position: relative;
+  list-style: none;
+  color: #555555;
+}
+.js-tree *:focus {
+  outline: none;
+}
+.js-tree button:focus {
+  color: #333333;
+}
+.js-tree ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.js-tree li {
+  margin: 5px 0;
+}
+.js-tree .js-tree-icon {
+  color: #999999;
+}
+.js-tree .js-tree-icon-caret {
+  border: none;
+  background: transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.js-tree-branch-header:hover{
+    background-color: #ddd;
+}
+.js-tree .js-tree-open > .js-tree-branch-header .js-tree-icon-caret {
+  position: relative;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.js-tree .js-tree-loader {
+  margin-left: 45px;
+}
+.js-tree .js-tree-branch{
+    position: relative;
+    width: 100%;
+}
+.js-tree .js-tree-branch .js-tree-branch-header {
+  position: relative;
+  border-radius: 2px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.js-tree .js-tree-branch .js-tree-branch-header .js-tree-branch-name:hover {
+  color: #333333;
+}
+.js-tree .js-tree-branch .js-tree-branch-header .js-tree-branch-name {
+  white-space: nowrap;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 0;
+}
+.js-tree .js-tree-branch .js-tree-branch-header label {
+  font-weight: normal;
+  padding-left: 3px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.js-tree .js-tree-branch .js-tree-branch-children {
+  margin-left: 1em;
+}
+.js-tree .js-tree-item {
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+}
+.js-tree .js-tree-item .js-tree-item-name {
+  white-space: nowrap;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 0;
+}
+.js-tree .js-tree-item .js-tree-item-name:hover {
+  color: #333333;
+}
+.js-tree .js-tree-item.js-tree-selected .js-tree-item-name {
+  background-color: #ddd;
+  color: #333333;
+}
+.js-tree .js-tree-item.js-tree-selected .js-tree-icon {
+  color: #555555;
+}
+.js-tree .js-tree-item label {
+  font-weight: normal;
+  padding-left: 5px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.js-tree .js-tree-branch-name {
+  color: #333333;
+}
+.js-tree.js-tree-folder-select .js-tree-branch > .js-tree-branch-name {
+  padding: 1px 5px 0 5px;
+  border-radius: 2px;
+}
+.js-tree.js-tree-folder-select .js-tree-branch > .js-tree-branch-name.js-tree-selected {
+  background-color: #ddd;
+}
+.js-tree.js-tree-folder-select .js-tree-branch.js-tree-selected > .js-tree-branch-header  {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.js-tree.js-tree-folder-select .js-tree-branch.js-tree-selected > .js-tree-branch-header .js-tree-branch-name:hover {
+  background-color: #ddd;
+}
+.js-icon-edit:hover,.js-icon-trash:hover,.js-icon-undo:hover,.js-icon-save:hover{
+    color: #03A9F4;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+.js-icon-plus:hover{
+    color: #03A9F4;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+}
+
+.js-hide {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.contentedit-style{
+	border: 1px solid #03A9F4;
+	padding: 5px;
+	display: block;
+}
+.m-15{
+	margin: 15px;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+
+@-webkit-keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
