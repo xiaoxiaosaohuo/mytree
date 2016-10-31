@@ -1,0 +1,9 @@
+[{
+	"title": "文本标题",
+	"type": "item",
+	"attr": {
+		"id": "3",
+		"icon": "am-icon-leaf",
+		"deepth": "3"
+	}
+}]

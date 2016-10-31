@@ -1,0 +1,19 @@
+[{
+	"title": "北京总公司",
+	"type": "folder",
+	"attr": {
+		"id": "2",
+		"text": "超你妈",
+		"group": "中国共党",
+		"deepth": "1"
+	}
+}, {
+	"title": "代理商",
+	"type": "folder",
+	"attr": {
+		"id": "3",
+		"text": "超你妈",
+		"group": "中国共党",
+		"deepth": "1"
+	}
+}]
