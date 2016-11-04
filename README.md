@@ -1,6 +1,6 @@
 # jstree 插件
-1. #### [API 文档](http://note.youdao.com/)
-1. #### [使用示例](http://note.youdao.com/)
+1. ####  [API 文档]()
+1. ####  [使用示例]()
 
 
 1. 1 参数说明
@@ -20,7 +20,7 @@ folderIcon | string |可折叠项图标|plus-square-o
 folderIcon | string |可折叠项图标|plus-square-o
 
 
-1.2 数据格式
+1.2  数据格式
 
 key | type | des
 ---|---|---
@@ -30,7 +30,7 @@ attr | object | 附加数据
 attr.classNames | string |添加到节点的class名
 attr.icon | string |自定义节点图标的class名
 attr.id | string | 附加的id
-1.3 自定义事件
+1.3  自定义事件
 
 eventsType  |  des
 ---|---
